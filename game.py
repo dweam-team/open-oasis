@@ -5,10 +5,10 @@ import torch
 import torch._dynamo
 torch._dynamo.config.suppress_errors = True
 
-from dit import DiT_models
-from vae import VAE_models
+from .dit import DiT_models
+from .vae import VAE_models
 from torchvision.io import read_video
-from utils import sigmoid_beta_schedule
+from .utils import sigmoid_beta_schedule
 from einops import rearrange
 from torch import autocast
 import pygame

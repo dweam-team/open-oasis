@@ -8,9 +8,9 @@ References:
 from typing import Optional, Literal
 import torch
 from torch import nn
-from rotary_embedding_torch import RotaryEmbedding
+from .rotary_embedding_torch import RotaryEmbedding
 from einops import rearrange
-from attention import SpatialAxialAttention, TemporalAxialAttention
+from .attention import SpatialAxialAttention, TemporalAxialAttention
 from timm.models.vision_transformer import Mlp
 from timm.layers.helpers import to_2tuple
 import math
