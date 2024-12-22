@@ -1,0 +1,19 @@
+type = "Oasis"
+entrypoint = "open_oasis.dweam_game:OasisGame"
+repo_link = "https://github.com/XmYx/open-oasis"
+thumbnail_dir = "thumbnails"
+
+# Game-specific metadata
+[games.minecraft]
+title = "Oasis Minecraft"
+tags = ["Minecraft"]
+description = "Decart and Etched's 500M Minecraft model"
+
+[games.minecraft.buttons]
+"⬆️ Up" = "W"
+"⬅️ Left" = "A"
+"⬇️ Down" = "S"
+"➡️ Right" = "D"
+"🆙 Jump" = "Space"
+"👀 Look Around" = "Mouse Movement"
+"🔄 Reset" = "Enter"
